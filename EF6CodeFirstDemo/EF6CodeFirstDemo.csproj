@@ -55,6 +55,10 @@
     <Compile Include="Migrations\202002090558202_initial-tables.Designer.cs">
       <DependentUpon>202002090558202_initial-tables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002091401092_AddEmailDev1.cs" />
+    <Compile Include="Migrations\202002091401092_AddEmailDev1.Designer.cs">
+      <DependentUpon>202002091401092_AddEmailDev1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202002091403513_AddPhoneDev2.cs" />
     <Compile Include="Migrations\202002091403513_AddPhoneDev2.Designer.cs">
       <DependentUpon>202002091403513_AddPhoneDev2.cs</DependentUpon>
@@ -80,6 +84,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202002090558202_initial-tables.resx">
       <DependentUpon>202002090558202_initial-tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002091401092_AddEmailDev1.resx">
+      <DependentUpon>202002091401092_AddEmailDev1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002091403513_AddPhoneDev2.resx">
       <DependentUpon>202002091403513_AddPhoneDev2.cs</DependentUpon>
