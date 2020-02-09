@@ -16,6 +16,7 @@ namespace EF6CodeFirstDemo
         public int? GradeId { get; set; }
         public int Age { get; set; }
         public string Email { get; set; }
+        public string Email1 { get; set; }
         public string Phone { get; set; }
 
         public virtual Grade Grade { get; set; }
