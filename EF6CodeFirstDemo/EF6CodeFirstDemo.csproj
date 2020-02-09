@@ -67,6 +67,10 @@
     <Compile Include="Migrations\202002091410181_MergeEmailPhone.Designer.cs">
       <DependentUpon>202002091410181_MergeEmailPhone.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002091437253_AddEmail1Dev1.cs" />
+    <Compile Include="Migrations\202002091437253_AddEmail1Dev1.Designer.cs">
+      <DependentUpon>202002091437253_AddEmail1Dev1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002091410181_MergeEmailPhone.resx">
       <DependentUpon>202002091410181_MergeEmailPhone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002091437253_AddEmail1Dev1.resx">
+      <DependentUpon>202002091437253_AddEmail1Dev1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
