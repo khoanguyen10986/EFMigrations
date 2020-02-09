@@ -8,12 +8,10 @@ namespace EF6CodeFirstDemo.Migrations
         public override void Up()
         {
             AddColumn("dbo.Students", "Phone", c => c.String());
-            DropColumn("dbo.Students", "Email");
         }
         
         public override void Down()
         {
-            AddColumn("dbo.Students", "Email", c => c.String());
             DropColumn("dbo.Students", "Phone");
         }
     }
