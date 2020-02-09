@@ -55,9 +55,13 @@
     <Compile Include="Migrations\202002090558202_initial-tables.Designer.cs">
       <DependentUpon>202002090558202_initial-tables.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202002091401092_AddEmailDev1.cs" />
-    <Compile Include="Migrations\202002091401092_AddEmailDev1.Designer.cs">
-      <DependentUpon>202002091401092_AddEmailDev1.cs</DependentUpon>
+    <Compile Include="Migrations\202002091403513_AddPhoneDev2.cs" />
+    <Compile Include="Migrations\202002091403513_AddPhoneDev2.Designer.cs">
+      <DependentUpon>202002091403513_AddPhoneDev2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002091410181_MergeEmailPhone.cs" />
+    <Compile Include="Migrations\202002091410181_MergeEmailPhone.Designer.cs">
+      <DependentUpon>202002091410181_MergeEmailPhone.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -77,8 +81,11 @@
     <EmbeddedResource Include="Migrations\202002090558202_initial-tables.resx">
       <DependentUpon>202002090558202_initial-tables.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002091401092_AddEmailDev1.resx">
-      <DependentUpon>202002091401092_AddEmailDev1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202002091403513_AddPhoneDev2.resx">
+      <DependentUpon>202002091403513_AddPhoneDev2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002091410181_MergeEmailPhone.resx">
+      <DependentUpon>202002091410181_MergeEmailPhone.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
