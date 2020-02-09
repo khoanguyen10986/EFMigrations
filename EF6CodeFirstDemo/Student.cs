@@ -15,6 +15,7 @@ namespace EF6CodeFirstDemo
         //fully defined relationship
         public int? GradeId { get; set; }
         public int Age { get; set; }
+        public string Email { get; set; }
 
         public virtual Grade Grade { get; set; }
 
