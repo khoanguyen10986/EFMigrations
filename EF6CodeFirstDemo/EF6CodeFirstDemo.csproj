@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Blog.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="Grade.cs" />
     <Compile Include="Migrations\202002090558202_initial-tables.cs" />
